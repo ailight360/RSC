@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+:root{
+    --primary-red: hsl(0, 100%, 67%);
+    --primary-yellow: hsl(39, 100%, 56%);
+    --primary-teal: 166, 100%, 37%;
+    --primary-blue: hsl(234, 85%, 45%);
+
+    --gradients-blue: hsl(252, 100%, 67%);
+    --gradients-royal-blue: hsl(241, 81%, 54%);
+    --gradients-violet: hsla(256, 72%, 46%, 1);
+    --gradients-persian: hsla(241, 72%, 46%, 0);
+
+    --neutral-white:hsl(0, 0%, 100%);
+    --neutral-pale: hsl(221, 100%, 96%);
+    --neutral-lavender: hsl(241, 100%, 89%);
+    --neutral-gray: hsl(224, 30%, 27%);
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.flex-center {
+    display: flex;
+    height: 100vh;
+}
+
+.content-section {
+    background: #e2feff;
+    margin: auto;
+}
+
+.content-section {
+    background: #e2feff;
+    margin: auto;
+    display: flex;
+}
+
+.result-section, .summary-section {
+    flex: 1 0;
+}
+
+.content-section {
+    background: #e2feff;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 0 hsl(var(----primary-teal),0.5);
+}
