@@ -28,7 +28,7 @@ svg {
 
     --neutral-white:hsl(0, 0%, 100%);
     --neutral-pale: hsl(221, 100%, 96%);
-    --neutral-lavender: hsl(241, 100%, 89%);
+    --neutral-lavender:241, 100%, 89%;
     --neutral-gray: hsl(224, 30%, 27%);
 }
 
@@ -47,18 +47,43 @@ body{
     background: var(--neutral-white);
     margin: auto;
     display: flex;
-    box-shadow: 0px 10px 10px hsl(var(--primary-teal),0.2);
+    box-shadow: 0px 5px 10px hsl(var(--primary-teal),0.1);
     border-radius: 25px;
     width: 600px;
 }
 
 .result-section, .summary-section {
     flex: 1 0;
-    padding: 45px;
+    padding: 30px;
 }
 
-
 .result-section {
-    background: linear-gradient(0deg, var(--gradients-royal-blue), var(--gradients-blue));
-    border-radius: 25px;
+  background: linear-gradient(0deg, var(--gradients-royal-blue), var(--gradients-blue));
+  border-radius: 25px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  color:hsl(var(--neutral-lavender),0.6)
+}
+
+.result-score {
+  height: 160px;
+  display: flex;
+  border-radius: 50%;
+  width: 160px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px auto;
+  background: linear-gradient(0deg, var(--gradients-persian), var(--gradients-violet));
+  color:hsl(var(--neutral-lavender),0.6)
+}
+
+.result-score span {
+  font-size: 60px;
+  color: var(--neutral-white);
+  font-weight: 600;
 }
