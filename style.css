@@ -59,8 +59,9 @@ body{
 }
 
 .content-section {
-    background: #e2feff;
+    background: var(--neutral-white);
     margin: auto;
     display: flex;
-    box-shadow: 0 0 0 hsl(var(----primary-teal),0.5);
+    box-shadow: 0px 5px 10px
+    hsl(var(--primary-teal),0.2);
 }
