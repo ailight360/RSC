@@ -44,15 +44,12 @@ body{
 }
 
 .content-section {
-    background: #e2feff;
-    margin: auto;
-    width: 600px;
-}
-
-.content-section {
-    background: #e2feff;
+    background: var(--neutral-white);
     margin: auto;
     display: flex;
+    box-shadow: 0px 10px 10px hsl(var(--primary-teal),0.2);
+    border-radius: 25px;
+    width: 600px;
 }
 
 .result-section, .summary-section {
@@ -60,15 +57,8 @@ body{
     padding: 45px;
 }
 
-.content-section {
-    background: var(--neutral-white);
-    margin: auto;
-    display: flex;
-    box-shadow: 0px 5px 10px hsl(var(--primary-teal),0.2);
-}
 
 .result-section {
     background: linear-gradient(0deg, var(--gradients-royal-blue), var(--gradients-blue));
-    border-radius: 15px;
-    padding: 30px;
+    border-radius: 25px;
 }
