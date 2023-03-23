@@ -160,3 +160,19 @@ body{
   color: var(--primary-blue);
 }
 
+.summary-score {
+    font-weight: 600;
+    color: hsl(var(--neutral-gray),0.5);
+}
+
+.summary-score  span {
+  color: hsl(var(--neutral-gray),1);
+}
+
+.btn-continue {
+  background-color: hsla(var(--neutral-gray),1);
+  border: none;
+  border-radius: 30px;
+  padding: 16px 12px;
+  color: var(--neutral-white);
+}
