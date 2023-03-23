@@ -175,4 +175,5 @@ body{
   border-radius: 30px;
   padding: 16px 12px;
   color: var(--neutral-white);
+  cursor: pointer;
 }
