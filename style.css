@@ -177,3 +177,22 @@ body{
   color: var(--neutral-white);
   cursor: pointer;
 }
+
+@media only screen and (max-width:740px) {
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .result-section {
+    border-radius: 0px 0px 25px 25px;
+  }
+
+  .summary-section {
+    gap: 40px;
+}
+
+}
